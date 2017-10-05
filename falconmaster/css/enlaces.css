@@ -1,0 +1,44 @@
+a-{
+  font-size: 20px;
+
+  text-decoration: none;
+  /*arriba-derecha-abajo-izquierda*/
+  margin: 10px 10px 10px 10px;
+  /*arriba-abajo/lados*/
+  /*padding: 10px 20px;*/
+}
+
+a-:link{
+  color:#2fc22f;
+}
+
+/*al pasar el raton encima*/
+a-:hover{
+  text-decoration: underline;
+  background: #000;
+}
+
+/*al darle clic*/
+a-:active{
+  color: orange;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px 20px;
+  display: inline-block;
+  background: #3ba1e1;
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 0px #4984bb;
+}
+
+a:hover{
+  box-shadow: 0px 2px 0px #4984bb;
+  background: rgba(68, 68, 156, 0.43);
+}
+
+a:active{
+  box-shadow: none;
+}
