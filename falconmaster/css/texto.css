@@ -1,0 +1,21 @@
+h1 {
+  font-weight: normal;
+  text-align: center;
+  background: #aaa;
+}
+
+p {
+  font-family: "Helvetica";
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  /*separacion entre lineas*/
+  line-height: 30px;
+  text-decoration: none;
+  text-transform:lowercase;
+  letter-spacing: normal;
+  /*entre cada palabra*/
+  word-spacing: 20px;
+  /*sombreado*/
+  text-shadow: 1px 1px 0px #000;
+}
