@@ -1,0 +1,32 @@
+/**{
+  margin:0;
+  padding: 0;
+  color: red;
+}*/
+
+body {
+  background: ;
+}
+
+h2, h4, h6 {
+  color: red;
+}
+
+h2{
+  font-size:40px;
+}
+
+/*  p <<dentro--- a  */
+p a{
+  color: blue;
+  font-size: 20px
+}
+
+p .green{
+  color: green;
+}
+
+a[href="http://www.falconmasters.com"]{
+  color:green;
+  font-size: 30px;
+}
