@@ -1,16 +1,17 @@
-h1, a, div, p {
-  background: orange;
+body{
+  /*background-color: rgb(135, 157, 205);*/
+  /*background: rgb(76, 151, 166);*/
+  background-image: url(../imagenes/overfly.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  /*background-position: 200px 100px;*/
+  background-position: center 0;
+
 }
 
-div {
-  height: 120px;
-  width: 300px;
-  /*primero margen arriba y abajo/ segundo margen lados //// exterior*/
-  margin: 20px 50px;
-  /*interior*/
-  padding: 30px;
-  border:5px solid red;
-/*inline-block para q acepte medidas*/
-/*inline no acepta medidas*/
-  display:inline-block;
-}
+/*div{
+  background: url(../imagenes/overfly.jpg);
+  height: 300px;
+  color: #fff;
+}*/
