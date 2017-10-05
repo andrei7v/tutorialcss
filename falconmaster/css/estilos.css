@@ -1,32 +1,16 @@
-/**{
-  margin:0;
-  padding: 0;
-  color: red;
-}*/
-
-body {
-  background: ;
+/*tamaño defaul 16px*/
+/*unidad em hereda tamaño superior*/
+/*unidad rem herera el tamaño padre*/
+body{
+  font-size:12px;
 }
 
-h2, h4, h6 {
-  color: red;
+div{
+  background: #000;
+  color:#fff;
+  width: 50%;
 }
 
-h2{
-  font-size:40px;
-}
-
-/*  p <<dentro--- a  */
-p a{
-  color: blue;
-  font-size: 20px
-}
-
-p .green{
-  color: green;
-}
-
-a[href="http://www.falconmasters.com"]{
-  color:green;
-  font-size: 30px;
+div p{
+  font-size: 1rem;
 }
