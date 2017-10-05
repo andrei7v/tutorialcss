@@ -1,16 +1,16 @@
-/*tamaño defaul 16px*/
-/*unidad em hereda tamaño superior*/
-/*unidad rem herera el tamaño padre*/
-body{
-  font-size:12px;
+h1, a, div, p {
+  background: orange;
 }
 
-div{
-  background: #000;
-  color:#fff;
-  width: 50%;
-}
-
-div p{
-  font-size: 1rem;
+div {
+  height: 120px;
+  width: 300px;
+  /*primero margen arriba y abajo/ segundo margen lados //// exterior*/
+  margin: 20px 50px;
+  /*interior*/
+  padding: 30px;
+  border:5px solid red;
+/*inline-block para q acepte medidas*/
+/*inline no acepta medidas*/
+  display:inline-block;
 }
